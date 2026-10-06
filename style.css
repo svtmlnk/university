@@ -1,35 +1,16 @@
 :root {
-    --bg: #fff;
-    --fg: #0a0a0a;
-    --mut: #5d6470;
-    --blue: #1d4ed8;
-    --blue2: #7aa2ff;
-    --line: #d9dde5;
-    --on-blue: #fff;
-    --soft: #f2f5fb;
-    box-sizing: border-box;
-    padding-top: env(safe-area-inset-top, 0px);
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-        --bg: #0b0d12;
-        --fg: #f4f6fa;
-        --mut: #9aa3b2;
-        --line: #252a35;
-        --soft: #12161e;
-        --blue: #4f7cff;
-    }
-}
-
-:root[data-theme="dark"] {
+    color-scheme: dark;
     --bg: #0b0d12;
     --fg: #f4f6fa;
     --mut: #9aa3b2;
-    --line: #252a35;
-    --soft: #12161e;
     --blue: #4f7cff;
+    --blue2: #7aa2ff;
+    --line: #252a35;
+    --on-blue: #fff;
+    --soft: #12161e;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 html {
@@ -670,6 +651,7 @@ footer {
     background: #050505;
     color: #fff;
     padding: 64px 0 36px;
+    border-top: 1px solid var(--line);
 }
 
 .ft {
