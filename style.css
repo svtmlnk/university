@@ -851,6 +851,7 @@ footer {
     .hero .g {
         width: 100px;
         opacity: 0.6;
+        --r: -25deg;
     }
 
     .hero .g.b {
