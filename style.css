@@ -132,7 +132,7 @@ nav a.active,
     align-items: center;
     gap: 12px;
     border-radius: 99px;
-    padding: 6px 6px 6px 20px;
+    padding: 10px 20px;
     background: var(--blue);
     color: var(--on-blue);
     font:
@@ -140,17 +140,6 @@ nav a.active,
         sans-serif;
     border: 0;
     cursor: pointer;
-}
-
-.btn i {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: var(--on-blue);
-    color: var(--blue);
-    display: grid;
-    place-items: center;
-    font-style: normal;
 }
 
 .btn.o {
